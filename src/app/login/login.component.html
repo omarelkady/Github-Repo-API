@@ -1,0 +1,17 @@
+<div class="register">
+    <h2 class="title-center" #tw></h2>
+    <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <input type="text" class="form-control input username" placeholder="username" #username>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 centerBtn">
+                <button type="button" (click)="loginBtn(username.value)" class="btn btn-default loginBtn">Login</button>
+            </div>
+        </div>
+</div>

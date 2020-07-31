@@ -1,0 +1,20 @@
+*{
+    color: black !important;
+}
+.main{
+    background: white;
+    width: auto;
+}
+.navbar-right{
+    float: right;
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}  
+div.scrollmenu table {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}

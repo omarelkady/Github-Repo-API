@@ -1,0 +1,111 @@
+*{
+    color: white;
+}
+.title{
+    height: 0px;
+}
+.text{
+    width: min-content;
+    text-align: right;
+    margin: 0px 10px 0px 10px;
+}
+.main{
+    background-color: black;
+}
+.underline{
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
+    width: 100px;
+}
+.description{
+    width: 300px;
+    margin: 0px 15px;
+}
+.title-center{
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+.input{
+    color: black;
+}
+.row{
+    margin: 10px;
+}
+.check{
+    margin: 0px 15px;
+}
+.register{
+    background-color: #333333;
+    border-bottom: 10px solid green;
+    margin: 15%;
+}
+.container{
+    width: 500px;
+}
+.registerBtn{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+}
+.centerBtn{
+    text-align: center;
+}
+.loginBtn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+}
+.loginBtn:hover{
+    background: gray;
+}
+.bridge{
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+.bridgeText{
+    color: black;
+}
+.bridgeBtn{
+    color: white;
+}
+.imgRow{
+    text-align: center;
+}
+.image{
+    height: 150px;
+}
+.justify-center{
+    margin-left: 32%;
+}
+.justify{
+    color: black;
+}
+.final{
+    background-color: #4c4c4c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width: 481px){
+    .container{
+        width: auto;
+    }
+    .registerBtn{
+        width: auto;
+    }
+}
+@media (max-width: 641px){
+    .container{
+        width: auto;
+    }
+    .registerBtn{
+        width: auto;
+    }
+}
